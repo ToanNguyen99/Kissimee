@@ -1,0 +1,38 @@
+.VMN_promotion-sec1 
+    background: url('../../assets/img/promotion/promotion-background-2.png')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    padding: 60px 0
+    .sec1_content
+        .promotion_title
+            display: inline-block
+            margin-bottom: 30px
+            h2
+                font-size: 70px
+                color: $blue
+                text-transform: uppercase
+                letter-spacing: 5px
+                font-weight: 300
+        p
+            padding: 0 50px
+            font-size: 16px
+            color: $blue
+    @media (max-width: 768px)
+        .sec1_content
+            .promotion_title
+                margin-bottom: 10px
+                h2
+                    font-size: 40px
+                    letter-spacing: 2px
+                &::after
+                    display: none
+    @media (max-width: 576px)
+        .sec1_content
+            .promotion_title
+                h2
+                    font-size: 30px
+                    letter-spacing: 2px
+                
+                
+            

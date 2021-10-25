@@ -1,0 +1,979 @@
+.KSM_sevices-sec1
+    background-color: #f9c1ce
+    padding: 50px 0
+    .sec1_box
+        .sec1_title-name
+            h3
+                font-size: 60px
+                font-weight: 100
+                text-transform: uppercase
+                color: #fff
+        .sec1_title-page
+            position: relative
+            display: inline-block
+            padding: 0 50px
+            h2
+                font-size: 150px
+                font-weight: 200
+                color: #fff
+                text-transform: uppercase
+                letter-spacing: 50px
+                
+            .attach_title-page
+                position: absolute
+                right: 0
+                top: 50%
+                transform: translateY(-50%)
+                img
+                    width: 100px
+
+        .subtitle
+            font-size: 40px
+            color: #fff
+    @media (max-width: 992px)
+        .sec1_box
+            .sec1_title-name
+                h3
+                    font-size: 30px
+            .sec1_title-page
+                h2
+                    font-size: 50px
+                    letter-spacing: 10px
+                .attach_title-page
+                    img
+                        width: 50px
+            .subtitle
+                font-size: 16px
+.KSM_sevices-sec2
+    padding: 80px 0
+    position: relative
+    .sec2_manicures-text
+        .item_text-box
+            width: 300px
+            margin: 0 auto
+            .item_info
+                .title
+                    letter-spacing: 2px
+                .item_price
+                    padding-left: 10px
+        .item-img
+            text-align: left
+            margin-top: 20px
+            img
+                width: 75%
+                height: auto
+                object-fit: cover
+                border-radius: 8px
+                position: relative
+                z-index: 9
+    .sec2_manicures-img
+        .img-border
+            padding-left: 20px
+            width: 400px
+            height: 400px
+            // overflow: hidden
+            position: relative
+            
+            img
+                width: 100%
+                height: 100%
+                border-radius: 50%
+                object-fit: cover
+                position: relative
+                z-index: 9
+                object-position: right
+            .border-picture
+                position: absolute
+                left: 0
+                top: -10px
+                width: 65%
+                
+                img
+                    width: 80%
+                    position: relative
+                    z-index: 19
+                
+    .sec2_attach-1
+        position: absolute
+        top: 0
+        left: 0
+        img
+            width: 80px
+    .sec2_attach-2
+        position: absolute
+        top: 20px
+        left: 35%
+        img
+            width: 70%
+    .sec2_attach-3
+        position: absolute
+        bottom: 10%
+        left: 45%
+        img
+            width: 70%
+    .sec2_attach-4
+        position: absolute
+        top: 50px
+        right: 30px
+        text-align: right
+        img
+            width: 70%
+    .sec2_attach-5
+        position: absolute
+        bottom: 0
+        right: 0
+        text-align: right
+        img
+            width: 70%
+    @media (max-width: 992px)
+        .sec2_manicures-img
+            .img-border
+                width: 300px
+                height: 300px
+    @media (max-width: 768px)
+        .sec2_manicures-text
+            margin-bottom: 50px
+            .item-img
+                text-align: center
+                img
+                    width: 100%
+
+        .sec2_manicures-img
+            .img-border
+                width: 300px
+                height: 300px
+                margin: 0 auto
+        .sec2_attach-3
+            display: none
+    @media (max-width: 576px)
+        .sec2_manicures-text
+            .item_text-box
+                width: auto
+                .item_info
+                    .item_price
+                        padding-left: 0
+
+        .sec2_attach-1
+            display: none
+        .sec2_attach-3
+            display: none
+        .sec2_attach-4
+            display: none
+        .sec2_attach-5
+            display: none
+.KSM_services-sec3
+    padding: 20px 0
+    .container
+        max-width: 1200px
+    .sec3_content
+        .content_img-big
+            height: 250px
+            width: 100%
+            overflow: hidden
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: center
+                border-radius: 30px
+        .content_text
+            padding: 30px 0
+            border: 2px solid $pink
+            border-radius: 30px
+            .content_text-title
+                margin-bottom: 15px
+                h3
+                    color: $pink
+                    font-weight: 400
+                    text-align: center
+                    font-size: 20px
+                    text-transform: uppercase
+            .item_info
+                width: 65% 
+                margin: 0 auto
+            .note
+                margin-top: 20px
+                text-align: center
+    .content-last
+        height: 100%
+        display: flex
+        // align-content: center
+        .content_img-small
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+    @media (max-width: 992px)
+        .sec3_content
+            .content_text
+                margin-top: 30px
+            .content_img-small 
+                display: none
+    @media (max-width: 576px)
+        .sec3_content
+            .content_text
+                .item_info
+                    width: 90%
+.KSM_services-sec4
+    // background-image: url(../../assets/img/services/services-attach-3.png)
+    // background-position: center
+    // background-size: cover
+    // background-repeat: no-repeat
+    padding: 50px 0
+    position: relative
+    .sec4_background-attach
+        position: absolute
+        top: 0
+        left: 0
+        img
+            width: 100%
+            position: relative
+            z-index: 9
+    .container-fluid
+        padding: 0 !important
+    .sec4_main
+        .sec4_content-text
+            display: flex
+            align-items: center
+            height: 100%
+            padding: 30px 0 30px 60px
+            position: relative
+            z-index: 10
+            .services_list
+                width: 400px
+                margin: 0 auto
+                .title_table
+                    h2
+                        color: $pink
+                        letter-spacing: 5px
+                        font-weight: 500
+                        padding-left: 10px
+                        font-size: 18px
+                        margin-bottom: 10px
+                .table
+                    margin-bottom: 0
+                    padding-left: 100px
+                    tr
+                        th
+                            color: $pink
+                            font-size: 14px
+                            padding: 5px
+                            font-weight: 300 !important
+                        td
+                            color: #6f8083
+                            padding: 5px
+                            font-size: 16px
+                        .box-price
+                            font-weight: 600
+            @media (max-width: 768px)
+                .services_list
+                    width: auto
+                    padding: 50px 20px
+        .sec4_content-img
+            img
+                z-index: 8
+                position: relative
+                width: 100%
+    @media (max-width: 1200px)
+        .sec4_main
+            .sec4_content-text
+                padding: 0
+        .sec4_background-attach 
+            top: 5%
+    @media (max-width: 992px)
+        .sec4_main
+            .sec4_content-text
+                margin-bottom: 20px
+        .sec4_background-attach 
+            display: none
+.KSM_services-sec5
+    padding-bottom: 50px
+    .sec5_content-box
+        .sec5_content-img
+            text-align: center
+            padding-top: 20px
+            position: relative
+            img
+                border-radius: 150px 150px 0 0
+                border-bottom: 5px solid #000
+                width: 80%
+                height: auto
+                object-fit: cover
+            .img_border-top
+                position: absolute
+                top: 0
+                left: 0
+                img
+                    width: 90%
+                    border-bottom: none
+        .sec5_content-text
+            .sec5_title
+                h3
+                    color: $pink
+                    text-transform: uppercase
+                    font-size: 18px
+                    margin-bottom: 15px
+                p
+                    color: #6f8083
+                    font-size: 15px
+                    font-weight: 400
+                .subtitle
+                    margin-bottom: 15px
+                    font-weight: 300
+                    font-size: 16px
+            .sec5_row-small
+                height: 100%
+                display: flex
+                align-items: end
+                .row_small-text
+                    .item_info
+                        p
+                            font-size: 15px
+                        .item_price
+                            .name
+                                font-weight: 600
+                .row_small-box
+                    display: flex
+                    justify-content: flex-end
+                    padding: 30px 0 0 30px
+                    .row_small-img
+                        position: relative
+                        img
+                            width: 500px
+                            height: 250px
+                            object-fit: cover
+                            border-radius: 30px
+    @media (max-width: 768px)
+        .sec5_content-box
+            .sec5_content-img
+                display: none
+            .sec5_content-text
+                margin-bottom: 20px
+                .row_small-img
+                    margin-top: 20px
+.KSM_services-sec6
+    padding: 50px 0
+    .sec6_items
+        .item_info
+            .item_price
+                .name
+                    flex-basis: 70%
+                .price
+                    flex-basis: 30%
+                p
+                    font-weight: 600
+                    margin-bottom: 5px
+            p
+                font-size: 15px
+        .item-img
+            height: 100%
+            img
+                height: 100%
+                border-radius: 30px
+    @media (max-width: 992px)
+        .sec6_items
+            margin-bottom: 30px
+            .img-last
+                margin-top: 30px
+.KSM_service-sec7
+    background-image: url('../../assets/img/services/services-banner-2.png')
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    .sec7_items
+        .item_img
+            text-align: right
+            margin-top: -25px
+            img
+                
+                width: 130px
+                height: 130px
+                border-radius: 50% 
+        .item_info
+            padding: 50px 0
+            .item_price
+                margin-bottom: 5px
+                p
+                    font-weight: 600
+            p
+                font-size: 15px
+    @media (max-width: 768px)
+        .sec7_items
+            .item_img
+                display: none
+.KSM_services-sec8
+    padding: 50px 0 
+    .sec8_items
+        margin-bottom: 15px
+        figure
+            .item-img
+                height: 250px
+                img
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+                    object-position: center
+            figcaption
+                padding: 15px
+                .item_info
+                    .item_price
+                        p
+                            font-weight: 600
+                    p
+                        font-size: 14px
+                        text-align: justify
+.KSM_services-sec9
+    position: relative
+    padding: 50px
+    background: #fde7ec
+    .sec9_items
+        .item_info
+            width: 500px 
+            margin: 0 auto
+            padding-left: 50px
+            p
+                font-size: 15px
+        .item-img
+            position: absolute
+            height: 250px
+            width: 70%
+            top: 20px
+            left: 0
+            img 
+                width: 100%
+                height: 100%
+                object-fit: cover
+                border-radius: 30px
+    @media(max-width: 1200px)
+        
+        .sec9_items
+            .item_info
+                width: auto
+                padding-left: 0
+            .item-img
+                position: relative
+                width: 100%
+    @media(max-width: 768px)
+        .sec9_items
+            .item-img
+                display: none
+.KSM_service-sec10 
+    padding: 120px 0 50px
+    .sec10_items
+        
+
+        .item_img-box
+            display: flex
+            justify-content: end
+            .item-img
+                height: 250px
+                width: 80%
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    border-radius: 30px
+        .item_info
+            .item_price
+                .name
+                    flex-basis: 0
+                .price
+                    flex: 0 
+            p
+                font-size: 15px
+                text-align: justify
+    .sec10_items-bot
+        height: 100%
+        display: flex
+        align-items: center
+    .sec10_content-bottom
+        margin-top: 30px
+        .item_info
+            padding-left: 50px
+            .item_price
+                .name
+                    flex: 1
+                .price
+                    flex: 0
+        .sec10_items
+            .item_img-box
+                justify-content: start
+                .item-img
+                    height: 200px
+                    width: 100%
+                    img
+                        border-radius: 0
+    @media (max-width: 768px)
+        .sec10_items
+            .item_img-box
+                justify-content: center
+                margin-bottom: 20px
+            .item_info
+                padding-left: 0
+                margin-bottom: 20px
+.KSM_services-sec11
+    padding: 50px 0
+    background-image: url('../../assets/img/services/services-banner-3.png')
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    .sec11_box
+        display: flex
+        justify-content: end
+        align-items: center
+        .sec11_content 
+            width: 400px
+            padding-right: 250px
+            flex-basis: 35%
+            .item_info
+                .title
+                    color: #fff
+                    font-size: 20px
+                    text-align: center
+                    font-weight: 200
+                    margin-bottom: 10px
+                .item_price
+                    margin-bottom: 5px
+                    p,span
+                        color: #fff
+                p
+                    color: #fff
+                    opacity: .7
+    @media (max-width: 1200px)
+        .sec11_box
+            .sec11_content 
+                padding-right: 100px
+                flex-basis: unset
+@media (max-width: 768px)
+    .KSM_services-sec11
+        padding-left: 15px
+        padding-right: 15px
+        .sec11_box
+            justify-content: center
+            .sec11_content 
+                padding-right: 0
+                
+                .item_info
+                    .title
+                        font-weight: 600
+                    p 
+                        opacity: 1
+                        font-weight: 500
+.KSM_services-sec12
+    padding: 50px 0
+    .sec12_items
+        height: 100%
+        .items_box
+            display: flex
+            flex-direction: column
+            justify-content: center
+            width: 400px
+            padding: 0 50px
+            margin: 0 auto
+            height: 100%
+            position: relative
+            .item_info
+                padding: 0 30px
+                margin-bottom: 20px
+                .title
+                    text-align: center
+                    margin-bottom: 10px
+                    letter-spacing: 2px
+                .item_price
+                    .name
+                        flex-basis: 70%
+                    .price
+                        flex-basis: 30%
+                        
+            .sec12_border-content
+                position: absolute
+                bottom: 70px
+                left: 0
+                img
+                    width: 350px
+
+        .items_top
+            height: 400px
+            margin-bottom: 10px
+            .col-item-top-left
+                padding-right: 2.5px
+            .col-item-top-right
+                padding-left: 2.5px
+
+            .top-left-img
+                height: 200px
+                img
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+            .top-right-img
+                height: 100%
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+        .items_bottom 
+            .item_bottom-img
+                height: 150px
+                img 
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    border-radius: 10px
+            .item_bottom-text
+                display: flex
+                flex-direction: column
+                justify-content: center
+                height: 100%
+                .item_info
+                    .title
+                        letter-spacing: 3px
+    @media(max-width: 1280px)
+        .sec12_items
+            .items_box
+                width: auto
+                padding: 0
+                .sec12_border-content
+                    left: -50px
+    @media(max-width: 992px)
+        .sec12_items
+            .items_box
+                .sec12_border-content
+                    display: none
+            .items_top
+                height: auto
+                .col-item-top-left
+                    padding-right: 15px
+                .col-item-top-right
+                    padding-left: 15px
+                .item_top-img
+                    margin-bottom: 20px
+.KSM_services-sec13
+    background-image: url('../../assets/img/services/services-banner-4.png')
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    padding: 80px 0
+    
+    .sec13_items
+        .item_info
+            width: 300px
+            transform: translateX(100%)
+            .title
+                color: #fff
+                font-size: 26px
+                font-weight: 300
+                margin-bottom: 15px
+            p
+                color: #fff
+            .item_price
+                margin-bottom: 5px
+                span
+                    color: #fff
+                .name
+                    opacity: .7
+    @media (max-width: 992px)
+        .sec13_items
+            .item_info
+                width: auto
+                transform: translateX(0)
+
+.KSM_services-sec14
+    padding: 50px 0 50px
+    .sec14_content-box
+        .sec14_content-img
+            text-align: center
+            padding-top: 20px
+            position: relative
+            height: 450px
+            width: 310px
+            img
+                border-radius: 150px 150px 0 0
+                border-bottom: 5px solid $pink
+                width: 100%
+                height: 100%
+                object-fit: cover
+            .img_border-top
+                position: absolute
+                top: 0
+                left: 0
+                img
+                    width: 100%
+                    border-bottom: none
+    .sec14_items-top
+        position: relative
+        .sec4_attach-item
+            position: absolute
+            top: 35%
+            right: 20%
+            img
+                width: 150px 
+                height: auto
+        .sec4_balloon-text
+            position: absolute
+            bottom: 0
+            right: 0
+            img
+                width: 225px
+                height: auto
+            .balloon-text
+                position: absolute
+                left: 20px
+                bottom: 0
+                p
+                    text-transform: uppercase
+                    color: #fff
+                    font-size: 40px
+                    font-weight: 300
+    .sec14_items
+        height: 100%
+        display: flex
+        align-items: center
+        .item_info
+            .title
+                color: $pink
+                font-weight: 400
+                letter-spacing: 1px
+                word-spacing: 3px
+                font-size: 20px
+                margin-bottom: 15px
+            .ff-segoe
+                margin-bottom: 15px
+            p
+                color: #6f8083
+                line-height: 1.7
+    @media (max-width: 1280px)
+        .sec14_items-top
+            .sec4_attach-item
+                display: none
+    @media (max-width: 992px)
+        .sec14_content-box
+            .sec14_content-img
+                width: auto
+        .sec14_items-top
+            .sec4_balloon-text
+                img
+                    width: 150px
+                .balloon-text
+                    p
+                        font-size: 26px
+    @media (max-width: 768px)
+        .sec14_items-top
+            margin-bottom: 20px
+        .sec14_content-box
+            .sec14_content-img
+                width: 300px
+                margin: 0 auto
+.KSM_services-sec15
+    padding: 20px 0 50px
+    .sec15_pictures
+        margin-left: 30px
+        display: flex
+        flex-wrap: wrap
+        grid-gap: 5px
+        .picture
+            &:nth-child(1)
+                flex: 0 0 calc( 38% - 5px )
+                height: 200px
+            &:nth-child(2)
+                flex: 0 0 calc( 35% - 5px )
+                height: 200px
+            &:nth-child(3)
+                flex: 0 0 calc( 27% - 5px )
+                height: 300px
+            &:nth-child(4)
+                flex: 0 0 calc( 36.5% - 5px )
+                height: 200px
+                margin-top: -100px
+            &:nth-child(5)
+                flex: 0 0 calc( 36.5% - 5px )
+                height: 200px
+                margin-top: -100px
+            &:nth-child(6)
+                flex: 0 0 calc( 27% - 5px )
+                height: 100px
+                
+            img 
+                width: 100%
+                height: 100%
+                object-fit: cover
+    .sec15_bottom
+        margin-top: 50px
+        .sec15_bottom-img
+            img
+                height: 250px
+                width: 100%
+                object-fit: cover
+                border-radius: 2px
+        .sec15_bottom-text
+            display: flex
+            align-items: center
+            height: 100%
+            .item_info
+                width: 300px
+
+    @media (max-width: 992px)
+        .sec15_items
+            margin-bottom: 30px
+        .sec15_pictures
+            margin-left: 0
+        .sec15_bottom
+            .sec15_bottom-text
+                margin-top: 20px
+                .item_info
+                    width: 100%
+.KSM_services-sec16
+    background-image: url(../../assets/img/services/services-banner-5.png)
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    padding: 30px 0 0
+    position: relative
+    .sec16_attack-bg 
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 5%
+        z-index: 3
+        img 
+            width: 100px
+    .sec16_item-img
+        position: relative
+        height: 100%
+        img
+            position: absolute
+            left: -20px
+            border: 10px solid #fff
+            height: 100%
+            width: 100%
+            object-fit: cover
+        .attach-img
+            position: absolute
+            bottom: 0
+            right: 0
+            width: 100px
+            height: 20px
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                border: none
+                // left: 0
+    .sec16_items-text
+        padding: 30px 0
+        .item_info
+            .title
+                font-size: 20px
+                letter-spacing: 1px
+            p
+                font-size: 15px
+        .item_img
+            height: 130px
+            margin-bottom: 5px
+            img 
+                width: 100%
+                height: 100%
+                object-fit: cover
+                border-radius: 8px
+                position: relative
+                z-index: 9
+    @media (max-width: 992px)
+        .sec16_item-img
+            display: none
+    @media (max-width: 576px)
+        .sec16_items-text
+            .item_info
+                margin-bottom: 20px
+.KSM_services-sec17
+    background-image: url('../../assets/img/services/services-banner-6.png')
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    position: relative
+    height: 250px
+    .sec17_content
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: 20%
+        .item_info
+            .title
+                color: $pink
+                opacity: 1
+                font-size: 24px
+                text-align: justify
+            p
+                text-align: justify
+                color: #fff
+                opacity: .7
+@media (max-width: 567px)
+    .KSM_services-sec17
+        background-position: right
+        .sec17_content
+            left: 10%
+// Responsive tổng < 576px
+@media (max-width: 567px)
+    .KSM_services-sec1
+        padding: 20px 0
+    .KSM_sevices-sec2
+        padding: 20px 0
+        .sec2_manicures-text
+            margin-bottom: 0
+        .sec2_manicures-img
+            display: none
+        .sec2_attach-2
+            display: none
+    .KSM_services-sec4
+        padding-top: 10px
+        padding-bottom: 20px
+        .sec4_main
+            .sec4_content-text
+                .services_list
+                    padding: 0 20px 20px 20px
+    .KSM_services-sec5
+        padding-bottom: 20px
+    .KSM_services-sec6
+        padding: 10px
+    .KSM_service-sec7 
+        .sec7_items
+            .item_info
+                padding: 20px 0
+    .KSM_services-sec8
+        padding: 20px 0
+    .KSM_services-sec9
+        padding: 20px
+    .KSM_service-sec10
+        padding: 20px 0
+        .sec10_items 
+            .item_img-box 
+                .item-img
+                    &::after
+                        display: none
+    .KSM_services-sec11
+        padding: 20px
+    .KSM_services-sec12
+        padding: 20px 0
+        .sec12_items 
+            .items_top 
+                .item_top-img
+                    display: none
+            .items_bottom
+                .item_bottom-text
+                    margin-top: 10px
+    .KSM_services-sec13
+        padding: 20px 0
+    .KSM_services-sec14, .KSM_services-sec15, .KSM_services-sec16
+        padding: 20px 0
+        .sec16_items-text
+            padding: 0
+            .item_img
+                display: none
+
+
+            
+
+ 
+
+
+
+

@@ -1,0 +1,48 @@
+.KSM_color-chart 
+    padding: 50px 0
+    .color_title
+        padding: 10px 0
+        position: relative
+        h2
+            text-transform: uppercase
+            font-weight: 200
+            color: #000
+            font-size: 55px
+            letter-spacing: 5px
+        h4
+            font-size: 30px
+            font-weight: 600
+            color: $pink
+            letter-spacing: 5px
+            text-transform: uppercase
+        &::before
+            position: absolute
+            content: ''
+            width: 20%
+            height: 100px
+            background: #fad0da
+            left: 0
+            bottom: 0
+        &::after
+            position: absolute
+            content: ''
+            width: 20%
+            height: 100px
+            background: #fad0da
+            right: 0
+            bottom: 0
+    .color-items
+        margin-top: 50px
+        .item-img
+            margin-bottom: 20px
+            img
+                width: 100%
+    @media (max-width: 992px)
+        .color_title
+            h2
+                letter-spacing: 0
+                font-size: 40px
+            &::before
+               display: none
+            &::after
+                display: none

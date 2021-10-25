@@ -1,0 +1,25 @@
+section.login
+    .container
+        .login_box 
+            .login_form
+                .login_icon 
+                    i.far.fa-user
+                .login_input 
+                    .input-group.flex-nowrap.mb-4
+                        .input-group-prepend
+                            span#addon-wrapping.input-group-text
+                                i.fas.fa-user
+                        input.form-control(type='text' placeholder='Email ID' aria-label='EmailID' aria-describedby='addon-wrapping')
+                    .input-group.flex-nowrap.mb-3
+                        .input-group-prepend
+                            span#addon-wrapping.input-group-text 
+                                i.fas.fa-lock
+                        input.form-control(type='password' placeholder='Password' aria-label='Password' aria-describedby='addon-wrapping')
+
+                    .input_feature
+                        .input_check
+                            input(type="checkbox" name="login")
+                            label(for="login") Remember me 
+                        a(href="#")  Forgot Password?
+            button.button_login.button_main Login
+                

@@ -1,0 +1,18 @@
+{
+    "font": [
+        "src/fonts/**"
+    ],
+    "js": [
+        "bower_components/jquery/dist/jquery.min.js",
+        "src/_plugins/mapping.js",
+        "src/_plugins/swiper/swiper-bundle.min.js",
+        "bower_components/lozad/dist/lozad.min.js",
+        "bower_components/popper.js/dist/umd/popper.min.js",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"
+    ],
+    "css": [
+        "src/_plugins/font.css",
+        "src/_plugins/swiper/swiper-bundle.min.css",
+        "bower_components/bootstrap/dist/css/bootstrap.min.css"
+    ]
+}

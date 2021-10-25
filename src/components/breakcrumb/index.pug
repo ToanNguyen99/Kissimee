@@ -1,0 +1,14 @@
+mixin link(href, name)
+	a(href=href class!=attributes.class )= name
+
+section.global-breakcrumb 
+	.container 
+		ol.breadcrumb
+			li 
+				a(href="/") Trang chủ 
+			if !! hrefParent
+				li 
+					+link('/' + hrefParent + '.html', titleParent)(class="")
+			else 
+			li 
+				+link('/' + href + '.html', title)(class="active")

@@ -1,0 +1,185 @@
+.KSM_gallery-sec1
+    padding: 50px 0
+    background: url('../../assets/img/gallery/gallery-background-1.png')
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    position: relative
+    .gallery_title
+        h3
+            font-size: 30px
+            color: $pink
+            font-weight: 400 
+            letter-spacing: 2px
+        .sec1_title
+            position: relative
+            h2
+                font-size: 70px
+                font-weight: 100
+                color: $pink
+            .border-bot
+                img
+                    width: 200px
+              
+        p
+            color: #6f808f
+            // font-weight: 600
+        .text-border-bottom
+            &::after
+                left: 5%
+                bottom: -10px
+    .swiper_items
+        padding: 20px 0 0
+        .swiper-container
+            padding: 50px 15px 20px
+        .swiper-slide
+            height: auto
+            padding-top: 0
+            .item_box
+                display: inline-block
+                position: relative
+                &::before
+                    content: ''
+                    width: 100px
+                    height: 5px
+                    background-color: #f9c1ce
+                    position: absolute
+                    top: -10%
+                    right: -8%
+                &::after
+                    content: ''
+                    width: 5px
+                    height: 100px
+                    background-color: #f9c1ce
+                    position: absolute
+                    top: -10%
+                    right: -8%
+
+            .item_img
+                position: relative
+                display: inline-block
+                height: 500px
+                img
+                    position: relative
+                    z-index: 9
+                    width: 600px
+                    height: 100%
+                    object-fit: cover
+                &::after
+                    content: ''
+                    width: 100%
+                    height: 100%
+                    background-color: #f9c1ce
+                    top: -30px
+                    right: -30px
+                    position: absolute
+                .img_decorate-1
+                    position: absolute
+                    bottom: 0%
+                    left: -25%
+                    
+                    img
+                        width: 150px
+                
+        .swiper-pagination
+            display: flex
+            align-items: center
+            position: relative
+            justify-content: center
+            .swiper-pagination-bullet
+                width: 13px
+                height: 13px
+                background: #8f9d9d
+                margin: 20px 5px 0
+    .left-wall-atach
+        position: absolute
+        top: 3%
+        left: -85px
+        img
+            width: 150px
+    .right-wall-atach
+        position: absolute
+        bottom: 0
+        right: 0
+        img
+            width: 50px
+@media (max-width: 992px)
+    .KSM_gallery-sec1
+        padding: 50px 0 
+        .swiper_items
+            .swiper-slide
+                .item_img
+                    height: 300px
+                    
+
+                .item_box
+                    &::before
+                        display: none
+                    &::after
+                        display: none
+                .img_decorate-1
+                    display: none
+@media (max-width: 768px)
+    .KSM_gallery-sec1
+        .gallery_title
+            h3
+                font-size: 22px
+                letter-spacing: 1px
+            .sec1_title
+                h2
+                    font-size: 30px
+                    span
+                        margin-left: 10px
+        .swiper_items
+            .swiper-slide
+                .item_img
+                    .img_decorate-2
+                        width: 100px
+                    .img_decorate-3
+                        display: none
+
+
+@media (max-width: 576px)
+    .KSM_gallery-sec1
+        padding: 50px 0
+        .left-wall-atach
+            display: none
+        .right-wall-atach
+            display: none
+//sec-2 gallery
+.KSM_gallery-sec2 
+    background-image: url('../../assets/img/gallery/gallery-banner-2.png')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    .sec2_title
+        padding: 50px 0
+        padding-left: 50px
+        width: 700px
+        h3
+            font-size: 40px
+            text-align: center
+            text-transform: uppercase
+            color: #fff
+            margin-bottom: 20px
+        h4
+            text-align: center
+            text-transform: uppercase
+            letter-spacing: 8px
+            font-weight: 200
+            font-size: 30px
+            color: #fff
+    @media (max-width: 992px)
+        .sec2_title
+            width: auto
+            text-align: center
+            padding-left: 0
+// Section-3 Gallery
+.KSM_gallery-sec3
+    padding: 50px 0 0
+    .sec3_items
+        margin-bottom: 30px
+        img
+            width: 100%
+            border: 3px solid $pink
+            border-radius: 8px

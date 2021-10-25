@@ -1,0 +1,10 @@
+extends _layout.pug
+
+block var
+	- var title = 'Gallery'
+	- var href = 'Gallery'
+	- var bodyClass = 'Gallery-page'
+
+block main
+	include ../components/banner/banner-gallery/index
+	include ../components/gallery/index

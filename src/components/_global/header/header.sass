@@ -1,0 +1,52 @@
+header
+    position: fixed
+    width: 100%
+    margin: 0 auto
+    z-index: 999
+    box-shadow: 1px 0 15px rgba(0, 0, 0, 0.5)
+    background: #fff
+    .header_top
+        padding: 15px 0
+        .main-logo
+            
+            img
+                width: 150px
+                height: auto
+                object-fit: cover
+        @media(max-width: 768px)
+            .main-logo
+                img
+                    width: 100px
+                    
+    .header_bottom
+        .navbar-collapse
+            justify-content: space-between
+            .navbar-nav
+                flex: 1
+                display: flex
+                justify-content: space-between
+                li
+                    padding: .5rem 5px
+                    transition: .5s all
+                    .nav-link
+                        padding: 0
+                    a
+                        color: #000
+                        font-size: 16px
+                        transition: .5s all
+                        font-weight: 500
+                        white-space: nowrap
+                        &.active
+                            color: #f993cb
+                    &:hover
+                        a
+                            color: #f993cb
+            
+            
+        @media(min-width: 1280px)
+            .navbar-collapse
+                .navbar-nav
+                    li
+                        padding: .5rem 15px
+
+                    

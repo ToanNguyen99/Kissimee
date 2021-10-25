@@ -1,0 +1,26 @@
+.VMN_background-home
+    .banner_slide
+        position: relative
+        .banner_content
+            position: absolute
+            right: 70px
+            top: 50%
+            transform: translateY(-50%)
+            img
+                width: 600px
+        @media (max-width: 1200px)
+            .banner_content
+                right: 50px
+                img
+                    width: 500px
+        @media (max-width: 992px)
+            .banner_content
+                right: 40px
+                img
+                    width: 400px
+        @media (max-width: 768px)
+            .banner_content
+                right: 0
+                padding: 0 15px
+                img
+                    width: 100%

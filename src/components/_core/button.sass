@@ -1,0 +1,101 @@
+$btnColor: #3e68ff
+.button_main 
+	font-size: r(16px)
+	border: none
+	background-color: transparent
+	font-family: inherit
+	padding: 0
+	cursor: pointer
+	// Display
+	display: inline-flex
+	align-items: center
+	justify-content: center
+	align-self: start // Optional - see "Gotchas"
+
+	// Visual
+	background-color: #ab8938
+	color: #fff
+	border-radius: 8px
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18)
+
+	// Size
+	padding: 0.25em 0.75em
+	min-width: 10ch
+	min-height: 44px
+
+	// Text
+	text-align: center
+	line-height: 1.1
+
+	transition: 220ms all ease-in-out
+
+	&:hover,
+	&:active
+		background-color: scale-color(#69440f, $lightness: -20%)
+
+	&:focus
+		outline: none
+	
+	@media screen and (-ms-high-contrast: active)
+		border: 2px solid currentcolor
+.button-social
+	padding-left: 0
+	li
+		list-style: none
+		padding: 2px
+		border: 1px solid #000
+		border-radius: 45%
+		margin: 0 5px
+		transition: .5s all
+		i
+			width: 25px
+			height: 25px
+			line-height: 25px
+			background: #000
+			color: #fff
+			border-radius: 45%
+			text-align: center
+		&:hover
+			i
+				background: #5c5c5c
+	.btn-booking
+		background: #000
+		color: #fff
+		border: none
+		box-shadow: none
+		border-radius: 8px
+		padding: 3px 20px
+		margin-left: 15px
+		transition: .5s all
+		&:focus
+			outline: none
+		&:hover
+			background: #5c5c5c
+.pagination_button
+	padding: 10px 0 80px 0
+	.btn_select
+		button
+			border: none
+			box-shadow: none
+			width: 30px
+			height: 30px
+			line-height: 30px
+			text-align: center
+			color: #fff
+			background: #f9c1ce
+			border-radius: 50%
+			font-weight: 500
+			margin: 0 5px
+			&:focus
+				outline: none
+			&.active,&:hover
+				background: $pink
+			
+		.btn-prev, .bnt-next
+			color: #fff
+			margin: 0 5px
+.button-social
+	button
+		a
+			text-decoration: none
+			color: #fff

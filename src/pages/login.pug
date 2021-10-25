@@ -1,0 +1,43 @@
+block var
+
+doctype html
+
+html(lang="en")
+
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		meta(property='og:image' content='../assets/img/logo/logo.png')
+		//- disable format number to phone (Safari)
+		meta(name="format-detection" content="telephone=no")
+
+		link(rel="preconnect", href="https://fonts.gstatic.com")
+		link(rel='preconnect' href='https://fonts.googleapis.com')
+		link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+		link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap' rel='stylesheet')
+		link(href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet')
+		//- link(href='//db.onlinewebfonts.com/c/5c452fb7a0f5751f4e94e9d84eb01154?family=Segoe+Script' rel='stylesheet' type='text/css')
+		link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css')
+		link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css')
+		link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css')
+		link(rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.min.css')
+		link(rel="shortcut icon", href="./assets/img/logo/logo.png", type="image/x-icon")
+		link(rel="stylesheet", href="./assets/css/global.min.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap")
+		link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css")
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css")
+		link(rel="stylesheet", href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css")
+		link(rel="stylesheet", href="./assets/css/main.min.css")
+		title Kissimmee-#{title}
+	body(class=bodyClass)
+	
+		include ../components/login/index
+		script(src="./assets/js/global.min.js")
+		script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+		script.
+			AOS.init();
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js')
+		script(src='https://unpkg.com/swiper/swiper-bundle.min.js')
+		script(src="./assets/js/main.min.js") 

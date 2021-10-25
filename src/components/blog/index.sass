@@ -1,0 +1,501 @@
+
+.KSM_blog-sec1
+    background: #fff
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        width: 55%
+        height: 300px
+        background: #fad0da
+        top: 0
+        right: 0
+    .container
+        max-width: 1200px
+    .sec1-title
+        padding-top: 30px
+        position: relative
+        z-index: 9
+        margin-bottom: 20px
+        h2
+            font-weight: 100
+            color: $pink
+            letter-spacing: 12px
+            font-size: 45px
+            text-transform: uppercase
+            span
+                color: #fff
+    .sec1_content   
+        // display: flex
+        // flex-direction: column
+        // justify-content: center
+        // height: 100%
+        figure
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+            figcaption
+                padding: 50px 0 0 50px
+                .sec1_content-title
+                    margin-bottom: 20px
+                    h3
+                        font-weight: 400
+                        font-size: 22px
+                        color: $pink
+                .date
+                    display: flex
+                    align-items: center
+                    margin-left: 5px
+                    margin-bottom: 10px
+                    date
+                        margin-left: 5px
+                        color: $blue
+                .content_detail
+                    .brief-content
+                        p
+                            overflow: hidden
+                            text-overflow: ellipsis
+                            line-height: 25px
+                            -webkit-line-clamp: 5
+                            height: 125px
+                            display: -webkit-box
+                            -webkit-box-orient: vertical
+                            color: $blue
+                            font-size: 16px
+    .sec1_img
+        img
+            width: 100%
+            
+@media (max-width: 992px)
+    .KSM_blog-sec1
+        &::before
+            display: none 
+        .sec1-title
+            text-align: center
+            h2
+                letter-spacing: 5px
+                font-size: 30px
+                font-weight: 500
+                span
+                    color: $pink
+        .sec1_content
+            figure
+                figcaption
+                    padding: 10px 0 0
+                    .sec1_content-title
+                        h3
+                            font-size: 22px
+                    .text-border-bottom
+                        &::after
+                            display: none
+        .sec1_img
+            img
+                width: 100%
+                position: relative
+                top: 0
+.KSM-newsletter
+    .newsletter-top
+        background: #f8f8f8
+        padding: 30px 10px 10px
+        .newsletter-big
+            padding: 0 20px
+            .item
+                margin-bottom: 20px
+                a
+                    text-decoration: none
+                .image
+                    height: 272px
+                    position: relative
+                    overflow: hidden
+                    img 
+                        height: 272px
+                        position: absolute
+                        width: 100%
+                        object-fit: contain
+                figcaption
+                    padding: 10px
+                    
+                .title
+                    h3 
+                        font-size: 18px
+                        font-weight: 600
+                        color: #5b6670
+                .brief-content
+                    p
+                        overflow: hidden
+                        text-overflow: ellipsis
+                        line-height: 25px
+                        -webkit-line-clamp: 4
+                        height: 100px
+                        display: -webkit-box
+                        -webkit-box-orient: vertical
+                .date
+                    font-size: 14px
+                    color: #241111
+                    margin-bottom: 5px
+        .newsletter-small
+            .item
+                margin-bottom: 20px
+                a
+                    text-decoration: none
+                .image
+                    height: 200px
+                    position: relative
+                    overflow: hidden
+                    img 
+                        height: 200px
+                        position: absolute
+                        width: 100%
+                        object-fit: cover
+                figcaption
+                    padding: 10px
+                    
+                .title
+                    h3 
+                        font-size: 16px
+                        font-weight: 600
+                        color: #5b6670
+                        line-height: 1.2
+                .brief-content
+                    p
+                        overflow: hidden
+                        text-overflow: ellipsis
+                        line-height: 25px
+                        -webkit-line-clamp: 4
+                        height: 100px
+                        display: -webkit-box
+                        -webkit-box-orient: vertical
+                .date
+                    font-size: 14px
+                    color: #666666
+                    margin-bottom: 5px
+.KSM-newsletter-2
+    padding: 30px 0
+    max-width: 1200px 
+    margin: 0 auto
+    .newsletter-bottom
+        .item
+            margin-bottom: 20px
+            a
+                text-decoration: none
+            .image
+                height: 200px
+                position: relative
+                overflow: hidden
+                img 
+                    height: 200px
+                    position: absolute
+                    width: 100%
+                    object-fit: cover
+            figcaption
+                padding: 10px
+                
+            .title
+                margin-bottom: 10px
+                h3 
+                    font-size: 16px
+                    font-weight: 600
+                    color: #5b6670
+                    line-height: 1.2
+            .date
+                font-size: 14px
+                color: #666666
+                margin-bottom: 5px
+            .brief-content
+                font-size: 16px
+                font-weight: 400
+                color: #5b6670
+                overflow: hidden
+                text-overflow: ellipsis
+                line-height: 25px
+                -webkit-line-clamp: 4
+                height: 100px
+                display: -webkit-box
+                -webkit-box-orient: vertical
+@media(min-width: 768px)
+    .KSM-newsletter
+        .newsletter-top
+            .newsletter-big
+                .item
+                    margin-bottom: 20px
+                    
+                    .image
+                        height: 272px
+                        position: relative
+                        overflow: hidden
+                        img 
+                            height: 272px
+                            position: absolute
+                            width: 100%
+                            object-fit: cover
+                    figcaption
+                        padding: 10px
+                        
+                    .title
+                        h3 
+                            font-size: 18px
+                            font-weight: 600
+                            color: #5b6670
+                    .date
+                        font-size: 14px
+                        color: #666666
+                        margin-bottom: 5px
+            .newsletter-small
+                .item
+                    margin-bottom: 20px
+                    figure
+                        display: flex
+                        flex-wrap: wrap
+                    .image
+                        height: 150px
+                        position: relative
+                        overflow: hidden
+                        flex: 0 0 30%
+                        width: 30%
+                        img 
+                            height: 150px
+                            position: absolute
+                            width: 100%
+                            object-fit: cover
+                    figcaption
+                        flex: 0 0 70%
+                        width: 70%
+                        padding: 0 10px
+                        
+                    .title
+                        h3 
+                            font-size: 16px
+                            font-weight: 600
+                            color: #5b6670
+                            line-height: 1.2
+                            overflow: hidden
+                            text-overflow: ellipsis
+                            -webkit-line-clamp: 2
+                            height: 38.4px
+                            display: -webkit-box
+                            -webkit-box-orient: vertical
+                    .date
+                        font-size: 14px
+                        color: #666666
+                        margin-bottom: 5px
+                        // margin-top: 20px
+    .KSM-newsletter-2                
+        .newsletter-bottom
+            .item
+                margin-bottom: 20px
+                .image
+                    height: 200px
+                    position: relative
+                    overflow: hidden
+                    img 
+                        height: 200px
+                        position: absolute
+                        width: 100%
+                        object-fit: cover
+                figcaption
+                    padding: 20px 10px
+                    
+                .title
+                    margin-bottom: 20px
+                    h3 
+                        font-size: 16px
+                        font-weight: 600
+                        color: #5b6670
+                        line-height: 1.2
+                        overflow: hidden
+                        text-overflow: ellipsis
+                        -webkit-line-clamp: 3
+                        height: 57.6px
+                        display: -webkit-box
+                        -webkit-box-orient: vertical
+                .date
+                    font-size: 14px
+                    color: #666666
+                    margin-bottom: 5px
+                .brief-content
+                    font-size: 16px
+                    font-weight: 400
+                    color: #5b6670
+                    overflow: hidden
+                    text-overflow: ellipsis
+                    line-height: 1.5
+                    -webkit-line-clamp: 4
+                    height: 96px
+                    display: -webkit-box
+                    -webkit-box-orient: vertical
+@media(min-width: 1025px)
+    .KSM-newsletter
+        padding-bottom: 25px
+        
+        .newsletter-top
+            margin-left: -10px
+            margin-right: -10px
+            .newsletter-big
+                padding-left: 10px
+                padding-right: 10px
+                .item
+                    margin-bottom: 20px
+                    .image
+                        height: 330px
+                        position: relative
+                        overflow: hidden
+                        img 
+                            height: 100%
+                            position: absolute
+                            width: 100%
+                            object-fit: cover
+                    figcaption
+                        padding: 13px 20px 0
+                        
+                        
+                    .title
+                        h3 
+                            font-size: 18px
+                            font-weight: 600
+                            color: #5b6670
+                            line-height: 25px
+                            overflow: hidden
+                            text-overflow: ellipsis
+                            -webkit-line-clamp: 2
+                            height: 50px
+                            display: -webkit-box
+                            -webkit-box-orient: vertical
+                            margin-bottom: 5px
+                    .brief-content
+                        font-size: 14px
+                    .date
+                        font-size: 14px
+                        color: #666666
+                        margin-bottom: 5px
+                    &:hover
+                        .title
+                            h3 
+                                color: #000000
+                        .brief-content
+                            p
+                                color:  $blue
+            .newsletter-small
+                padding-left: 10px
+                padding-right: 10px
+                .item
+                    margin-bottom: 20px
+                    figure
+                        display: flex
+                        flex-wrap: wrap
+                    .image
+                        // height: 138px
+                        position: relative
+                        overflow: hidden
+                        flex: 0 0 40%
+                        width: 40%
+                        
+                        img 
+                            
+                            position: absolute
+                            width: 100%
+                            object-fit: cover
+                    figcaption
+                        flex: 0 0 60%
+                        width: 60%
+                        padding: 0 10px
+                        
+                    .title
+                        h3 
+                            font-size: 16px
+                            font-weight: 600
+                            color: #5b6670
+                            line-height: 1.2
+                            margin-bottom: 5px
+                    .brief-content
+                        p
+                            font-size: 14px
+                            line-height: 20px
+                            height: 80px
+                    .date
+                        font-size: 14px
+                        color: #666666
+                        margin-bottom: 5px
+                        margin-top: 0px
+                    &:hover
+                        .title
+                            h3 
+                                color: #000
+                        .brief-content
+                            p
+                                color: $blue
+    .KSM-newsletter-2
+        .newsletter-bottom
+            margin-left: -10px
+            margin-right: -10px
+            .col-lg-3
+                padding-left: 10px
+                padding-right: 10px
+            .item
+                margin-bottom: 0
+                // background: #fff
+                // box-shadow: 0px 0px 14px -3px #000000
+                .image
+                    height: 200px
+                    position: relative
+                    overflow: hidden
+                    img 
+                        height: 200px
+                        position: absolute
+                        width: 100%
+                        object-fit: cover
+                figcaption
+                    padding: 10px
+                    
+                .title
+                    margin-bottom: 10px
+                    h3 
+                        font-size: 16px
+                        font-weight: 600
+                        color: #5b6670
+                        overflow: hidden
+                        text-overflow: ellipsis
+                        line-height: 25px
+                        -webkit-line-clamp: 2
+                        height: 50px
+                        display: -webkit-box
+                        -webkit-box-orient: vertical
+
+                .date
+                    font-size: 14px
+                    color: #666666
+                    margin-bottom: 5px
+                    margin-top: 5px
+                .brief-content
+                    p
+                        font-size: 16px
+                        font-weight: 400
+                        color: #5b6670
+                        overflow: hidden
+                        text-overflow: ellipsis
+                        line-height: 25px
+                        -webkit-line-clamp: 4
+                        height: 100px
+                        display: -webkit-box
+                        -webkit-box-orient: vertical
+                        text-align: justify
+        .item
+            .image
+                img 
+                    transition: all 0.5s
+            .title
+                h3 
+                    transition: all 0.5s
+            .brief-content
+                p 
+                    transition: .5s all
+            &:hover
+                .image
+                    img 
+                        transform: scale(1.1)
+                .title
+                    h3 
+                        color: #000
+                .brief-content
+                    p
+                        color: $blue
